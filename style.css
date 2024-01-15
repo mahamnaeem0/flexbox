@@ -1,0 +1,45 @@
+body{
+    background: #262626;
+}
+h1{
+    text-align: center;
+    text-shadow: 0 2px 20px #fff;
+    color:#fff ;
+    font-family: Audiowide;
+    text-transform: uppercase;
+    margin: 2% 0 0;
+}
+.wrapper{
+    width: 1170px;
+    display: flex;
+    height: 70vh;
+    margin: 3% auto 0;
+}
+.single-img{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transition:all 500 ms cubic-bezier(.14,.69,.93,1) ;
+    -moz-transition:all 500 ms cubic-bezier(.14,.69,.93,1) ;
+    -ms-transition: all 500 ms cubic-bezier(.14,.69,.93,1) ;
+    -o-transition:all 500 ms cubic-bezier(.14,.69,.93,1) ;
+    transition: all 500 ms cubic-bezier(.14,.69,.93,1);
+}
+.single-img:hover{
+    flex-basis: 65vw;
+}
+@media only screen and (min-width:78px) and (max-width:991px)
+{
+    .wrapper{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:767px){
+    .wrapper{
+        width: 100%;
+    }
+}
